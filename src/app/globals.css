@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-*: initial; // Faz com que o tailwind utilize apenas estas cores abaixo e não as padrões
+  /* --color-*: initial; // Faz com que o tailwind utilize apenas estas cores abaixo e não as padrões */
 
   --color-blue: #6f9de2;
   --color-purple: #9871f3;
@@ -17,8 +17,10 @@
   --color-gray-800: #13161b;
   --color-gray-900: #0f1216;
 
+  --radius-xl: 0.625rem;
+
   --font-heading: var(--font-oxanium);
-  --font-sans: var(
+  /* --font-sans: var(
     --font-montserrat
-  ); // font-sans é a fonte padrão do tailwind. Então será aplicada em todo projeto
+  ); // font-sans é a fonte padrão do tailwind. Então será aplicada em todo projeto */
 }
