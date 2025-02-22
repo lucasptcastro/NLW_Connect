@@ -12,6 +12,7 @@ const subscriptionSchema = z.object({
   email: z.string().email("Digite um e-mail válido"),
 });
 
+// o z.infer infere na tipagem o schema que está referenciado(subscriptionSchema)
 type SubscriptionSchema = z.infer<typeof subscriptionSchema>;
 
 export function SubscriptionForm() {
